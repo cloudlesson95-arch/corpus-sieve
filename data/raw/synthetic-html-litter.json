@@ -1,0 +1,8 @@
+{
+  "id": "synthetic-html-litter",
+  "title": "Microgrids",
+  "source": "synthetic",
+  "url": "https://example.org/synthetic/html-litter",
+  "license": "CC0 1.0 (synthetic test document)",
+  "text": "<!DOCTYPE html><html><head><style>.nav{color:#333}</style>\n<script>window.dataLayer=window.dataLayer||[];</script></head><body>\n<div class=\"article\"><h2>Microgrids</h2>\n<p>A <b>microgrid</b> is a local group of generators, batteries and loads that can run connected\nto the main grid or on its own as an &ldquo;island&rdquo;.</p>\n<p>Hospitals, military bases and remote villages use microgrids so that the lights stay on when\nthe wider network fails.&nbsp;A controller decides when to import power, when to export it and\nwhen to disconnect.</p>\n<!-- legacy layout -->\n<p>Solar panels and batteries are the most common building blocks, often with a diesel or gas\ngenerator as backup.<br/>Falling battery prices have made <i>island mode</i> practical for many\nmore sites over the last decade.</p>\n</div></body></html>"
+}

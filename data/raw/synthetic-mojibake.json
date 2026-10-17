@@ -1,0 +1,8 @@
+{
+  "id": "synthetic-mojibake",
+  "title": "Molten-salt storage",
+  "source": "synthetic",
+  "url": "https://example.org/synthetic/mojibake",
+  "license": "CC0 1.0 (synthetic test document)",
+  "text": "Molten-salt storage lets a solar tower keep working after sunset. The plantâ€™s two tanks hold a nitrate mixture: the â€œcoldâ€ tank sits at about 290 Â°C, while the â€œhotâ€ tank reaches 565 Â°C. During the day, mirrors focus sunlight on the receiver â€“ a dark, heat-absorbing tube bundle â€“ and the salt flows through it. At night, the hot salt passes a heat exchanger, makes steam, and drives a turbine. Operators in AndalucÃ­a and Chile report storage of 7â€“15 hours, which smooths the evening peak. Engineers still worry about freezing: below roughly 220 Â°C the salt solidifies, so pipes need trace heatingâ€¦ and a careful start-up procedure."
+}

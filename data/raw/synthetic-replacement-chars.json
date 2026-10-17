@@ -1,0 +1,8 @@
+{
+  "id": "synthetic-replacement-chars",
+  "title": "Export cable repair",
+  "source": "synthetic",
+  "url": "https://example.org/synthetic/replacement-chars",
+  "license": "CC0 1.0 (synthetic test document)",
+  "text": "Repairing an export cable at sea is slow and expensive. When a fault appears, the operator�s first job is to locate it � usually with time-domain reflectometry from the onshore end � before a cable-repair vessel can be booked. The crew lifts the damaged section, cuts it out, and splices in a new length with two �universal� joints; each joint can take 3�4 days in good weather. Because the repaired cable is now longer, it is laid in an �omega� loop on the seabed. Insurers in Denmark, Germany and the Netherlands report that cable faults cause around 80 % of offshore wind insurance claims � far more than turbine failures."
+}

@@ -1,0 +1,28 @@
+# Written by jobagent; add what the project needs.
+START-HERE.md
+PLAN.md
+CLAUDE.md
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+.vercel/
+
+# Next.js
+/.next/
+/out/
+/build
+*.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# OS
+.DS_Store
+Thumbs.db

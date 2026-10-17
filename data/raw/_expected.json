@@ -1,0 +1,50 @@
+{
+  "synthetic-exact-duplicate": {
+    "check": "exact_duplicate",
+    "problem": "Exact copy of the Pumped-storage hydroelectricity article"
+  },
+  "synthetic-near-duplicate": {
+    "check": "near_duplicate",
+    "problem": "Flywheel energy storage with a paragraph dropped and a few words changed"
+  },
+  "synthetic-empty": {
+    "check": "min_length",
+    "problem": "Empty document"
+  },
+  "synthetic-stub": {
+    "check": "min_length",
+    "problem": "A 20-word stub"
+  },
+  "synthetic-mojibake": {
+    "check": "mojibake",
+    "problem": "UTF-8 text decoded as Windows-1252"
+  },
+  "synthetic-replacement-chars": {
+    "check": "mojibake",
+    "problem": "Every non-ASCII character lost to U+FFFD replacement characters"
+  },
+  "synthetic-boilerplate": {
+    "check": "boilerplate",
+    "problem": "Cookie banner, navigation and footer around one paragraph"
+  },
+  "synthetic-non-english": {
+    "check": "language",
+    "problem": "German article"
+  },
+  "synthetic-missing-title": {
+    "check": "schema",
+    "problem": "Document without a title field"
+  },
+  "synthetic-pii": {
+    "check": "pii",
+    "problem": "Fake email addresses and phone numbers (flagged, not quarantined)"
+  },
+  "synthetic-html-litter": {
+    "check": "markup",
+    "problem": "HTML page source with tags, entities, script and style"
+  },
+  "synthetic-references-only": {
+    "check": "min_length",
+    "problem": "Only Wikipedia 'See also' and 'References' sections, nothing left after cleaning"
+  }
+}

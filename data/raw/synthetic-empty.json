@@ -1,0 +1,8 @@
+{
+  "id": "synthetic-empty",
+  "title": "Empty page",
+  "source": "synthetic",
+  "url": "https://example.org/synthetic/empty",
+  "license": "CC0 1.0 (synthetic test document)",
+  "text": ""
+}
