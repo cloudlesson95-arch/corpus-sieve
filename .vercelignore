@@ -1,0 +1,12 @@
+# Never upload secrets or local environments with `vercel deploy`.
+.env
+.env.*
+!.env.example
+START-HERE.md
+.venv
+node_modules
+.next
+**/__pycache__
+.pytest_cache
+.ruff_cache
+tests
