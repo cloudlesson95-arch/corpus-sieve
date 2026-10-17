@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // The uv virtualenv ships third-party .js files.
+    ".venv/**",
   ]),
 ]);
 

@@ -36,30 +36,27 @@ CABLE_REPAIR = (
     "around 80 % of offshore wind insurance claims – far more than turbine failures."
 )
 
-BOILERPLATE_PAGE = "\n".join([
-    "Skip to main content",
-    "Home | Products | Solutions | About us | Contact",
-    "Menu",
-    "Search",
-    "Sign in",
-    "We use cookies to improve your experience. By continuing to browse you agree to our use of cookies.",
-    "Accept all cookies",
-    "Manage cookie preferences",
-    "Reject non-essential cookies",
-    "Heat pumps explained",
-    "An air-source heat pump moves heat from outdoor air into a building instead of burning fuel to "
-    "make it. A refrigerant absorbs heat in the outdoor coil, a compressor raises its temperature, "
-    "and an indoor coil releases that heat into radiators or air ducts. For every unit of "
-    "electricity, a well-installed unit delivers three to four units of heat, which is why heat "
-    "pumps are central to decarbonising homes.",
-    "Share on Facebook | Share on X | Share on LinkedIn",
-    "Subscribe to our newsletter",
-    "Follow us",
-    "Privacy policy | Terms of use | Cookie policy",
-    "© 2026 Example Energy Ltd. All rights reserved.",
-    "Home | Products | Solutions | About us | Contact",
-    "Back to top",
-])
+BOILERPLATE_PAGE = """Skip to main content
+Home | Products | Solutions | About us | Contact
+Menu
+Search
+Sign in
+We use cookies to improve your experience. By continuing to browse you agree to our use of cookies.
+Accept all cookies
+Manage cookie preferences
+Reject non-essential cookies
+Heat pumps explained
+An air-source heat pump moves heat from outdoor air into a building instead of burning fuel to make it. \
+A refrigerant absorbs heat in the outdoor coil, a compressor raises its temperature, and an indoor coil \
+releases that heat into radiators or air ducts. For every unit of electricity, a well-installed unit \
+delivers three to four units of heat, which is why heat pumps are central to decarbonising homes.
+Share on Facebook | Share on X | Share on LinkedIn
+Subscribe to our newsletter
+Follow us
+Privacy policy | Terms of use | Cookie policy
+© 2026 Example Energy Ltd. All rights reserved.
+Home | Products | Solutions | About us | Contact
+Back to top"""
 
 GERMAN = (
     "Windenergie ist heute eine der wichtigsten Quellen für erneuerbaren Strom in Europa. Moderne "

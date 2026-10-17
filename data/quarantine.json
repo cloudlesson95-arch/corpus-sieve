@@ -1,0 +1,112 @@
+[
+  {
+    "id": "synthetic-boilerplate",
+    "title": "Heat pumps explained",
+    "failed_checks": [
+      "boilerplate"
+    ],
+    "details": {
+      "boilerplate": "16 of 18 lines are boilerplate (89%)"
+    }
+  },
+  {
+    "id": "synthetic-empty",
+    "title": "Empty page",
+    "failed_checks": [
+      "min_length"
+    ],
+    "details": {
+      "min_length": "0 words after cleaning (minimum 50)"
+    }
+  },
+  {
+    "id": "synthetic-exact-duplicate",
+    "title": "Pumped-storage hydroelectricity",
+    "failed_checks": [
+      "exact_duplicate"
+    ],
+    "details": {
+      "exact_duplicate": "same cleaned text as pumped-storage-hydroelectricity"
+    }
+  },
+  {
+    "id": "synthetic-html-litter",
+    "title": "Microgrids",
+    "failed_checks": [
+      "markup"
+    ],
+    "details": {
+      "markup": "204 of 814 characters are HTML tags or entities (25%)"
+    }
+  },
+  {
+    "id": "synthetic-missing-title",
+    "title": "",
+    "failed_checks": [
+      "schema"
+    ],
+    "details": {
+      "schema": "title: Field required"
+    }
+  },
+  {
+    "id": "synthetic-mojibake",
+    "title": "Molten-salt storage",
+    "failed_checks": [
+      "mojibake"
+    ],
+    "details": {
+      "mojibake": "15 suspicious sequences in 654 characters (2.29%)"
+    }
+  },
+  {
+    "id": "synthetic-near-duplicate",
+    "title": "Flywheel energy storage (mirror copy)",
+    "failed_checks": [
+      "near_duplicate"
+    ],
+    "details": {
+      "near_duplicate": "highest cosine 1.00 with flywheel-energy-storage"
+    }
+  },
+  {
+    "id": "synthetic-non-english",
+    "title": "Windenergie",
+    "failed_checks": [
+      "language"
+    ],
+    "details": {
+      "language": "detected 'de'"
+    }
+  },
+  {
+    "id": "synthetic-references-only",
+    "title": "Energy storage (reading list)",
+    "failed_checks": [
+      "min_length"
+    ],
+    "details": {
+      "min_length": "0 words after cleaning (minimum 50)"
+    }
+  },
+  {
+    "id": "synthetic-replacement-chars",
+    "title": "Export cable repair",
+    "failed_checks": [
+      "mojibake"
+    ],
+    "details": {
+      "mojibake": "9 suspicious sequences in 625 characters (1.44%)"
+    }
+  },
+  {
+    "id": "synthetic-stub",
+    "title": "Solar panels",
+    "failed_checks": [
+      "min_length"
+    ],
+    "details": {
+      "min_length": "20 words after cleaning (minimum 50)"
+    }
+  }
+]

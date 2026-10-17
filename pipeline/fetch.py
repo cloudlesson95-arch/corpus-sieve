@@ -8,6 +8,7 @@ import time
 
 import httpx
 
+from pipeline.clean import TAIL_SECTIONS
 from pipeline.files import RAW_DIR, write_json
 
 API = "https://en.wikipedia.org/w/api.php"
@@ -18,14 +19,6 @@ LICENSE = "CC BY-SA 4.0"
 # per article keeps the corpus near 600 chunks, which embeds within one day of
 # the Gemini free tier.
 MAX_BODY_CHARS = 10_000
-
-# Sections Wikipedia appends after the body. They are kept in the snapshot so
-# the cleaner has real leftovers to remove.
-TAIL_SECTIONS = {
-    "see also", "notes", "references", "external links", "further reading",
-    "bibliography", "sources", "citations", "footnotes", "notes and references",
-    "works cited",
-}
 
 # source -> article titles. The source is the topic feed a document came in
 # through; search can filter on it.
@@ -63,7 +56,10 @@ def slugify(title: str) -> str:
 
 
 def trim_article(text: str, max_chars: int = MAX_BODY_CHARS) -> str:
-    """Keep the lead and whole (sub)sections in order up to max_chars, plus the reference tail."""
+    """Keep the lead and whole (sub)sections in order up to max_chars, plus the reference tail.
+
+    The tail stays in the snapshot so the cleaner has real leftovers to remove.
+    """
     parts = re.split(r"(?m)^(?===)", text)
     kept, tail = [parts[0]], []
     size, full = len(parts[0]), False

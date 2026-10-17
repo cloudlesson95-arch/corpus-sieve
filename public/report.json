@@ -1,0 +1,276 @@
+{
+  "totals": {
+    "documents": 52,
+    "kept": 41,
+    "quarantined": 11,
+    "flagged": 1
+  },
+  "sources": {
+    "geothermal-bio": {
+      "documents": 6,
+      "kept": 6
+    },
+    "grid": {
+      "documents": 5,
+      "kept": 5
+    },
+    "hydro-marine": {
+      "documents": 7,
+      "kept": 7
+    },
+    "solar": {
+      "documents": 7,
+      "kept": 7
+    },
+    "storage": {
+      "documents": 9,
+      "kept": 9
+    },
+    "synthetic": {
+      "documents": 12,
+      "kept": 1
+    },
+    "wind": {
+      "documents": 6,
+      "kept": 6
+    }
+  },
+  "checks": [
+    {
+      "name": "schema",
+      "description": "Has non-empty id, title and source, and string url, license and text fields",
+      "blocking": true,
+      "evaluated": 52,
+      "failed": 1
+    },
+    {
+      "name": "min_length",
+      "description": "At least 50 words after cleaning",
+      "blocking": true,
+      "evaluated": 52,
+      "failed": 3
+    },
+    {
+      "name": "mojibake",
+      "description": "Mojibake sequences and U+FFFD replacement characters in the raw text stay under 0.5%",
+      "blocking": true,
+      "evaluated": 52,
+      "failed": 2
+    },
+    {
+      "name": "boilerplate",
+      "description": "Cookie, navigation, footer and repeated lines are at most 50% of the lines",
+      "blocking": true,
+      "evaluated": 52,
+      "failed": 1
+    },
+    {
+      "name": "markup",
+      "description": "HTML tags and entities are at most 5% of the raw characters",
+      "blocking": true,
+      "evaluated": 52,
+      "failed": 1
+    },
+    {
+      "name": "language",
+      "description": "English according to langdetect (judged when the cleaned text has 200+ characters)",
+      "blocking": true,
+      "evaluated": 52,
+      "failed": 1
+    },
+    {
+      "name": "pii",
+      "description": "No email addresses or phone numbers (flagged for review, not quarantined)",
+      "blocking": false,
+      "evaluated": 52,
+      "failed": 1
+    },
+    {
+      "name": "exact_duplicate",
+      "description": "No earlier document has the same cleaned text (SHA-256)",
+      "blocking": true,
+      "evaluated": 43,
+      "failed": 1
+    },
+    {
+      "name": "near_duplicate",
+      "description": "TF-IDF cosine similarity to every earlier document stays below 0.9",
+      "blocking": true,
+      "evaluated": 42,
+      "failed": 1
+    }
+  ],
+  "cleaning": [
+    {
+      "step": "fix_encoding",
+      "description": "ftfy repairs mojibake, curly quotes and control characters",
+      "chars_removed": 22
+    },
+    {
+      "step": "normalize_unicode",
+      "description": "Unicode NFC normalisation",
+      "chars_removed": 0
+    },
+    {
+      "step": "strip_html",
+      "description": "HTML tags, scripts, styles, comments and entities",
+      "chars_removed": 238
+    },
+    {
+      "step": "strip_wiki_leftovers",
+      "description": "Edit and citation markers, 'See also'/'References' tails",
+      "chars_removed": 46675
+    },
+    {
+      "step": "normalize_headings",
+      "description": "Wiki headings to Markdown ('== H ==' to '## H')",
+      "chars_removed": 1201
+    },
+    {
+      "step": "remove_boilerplate",
+      "description": "Cookie, navigation, footer and repeated lines",
+      "chars_removed": 508
+    },
+    {
+      "step": "collapse_whitespace",
+      "description": "Runs of spaces and blank lines",
+      "chars_removed": 537
+    }
+  ],
+  "quarantine": [
+    {
+      "id": "synthetic-boilerplate",
+      "title": "Heat pumps explained",
+      "source": "synthetic",
+      "failed": [
+        {
+          "name": "boilerplate",
+          "detail": "16 of 18 lines are boilerplate (89%)"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-empty",
+      "title": "Empty page",
+      "source": "synthetic",
+      "failed": [
+        {
+          "name": "min_length",
+          "detail": "0 words after cleaning (minimum 50)"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-exact-duplicate",
+      "title": "Pumped-storage hydroelectricity",
+      "source": "synthetic",
+      "failed": [
+        {
+          "name": "exact_duplicate",
+          "detail": "same cleaned text as pumped-storage-hydroelectricity"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-html-litter",
+      "title": "Microgrids",
+      "source": "synthetic",
+      "failed": [
+        {
+          "name": "markup",
+          "detail": "204 of 814 characters are HTML tags or entities (25%)"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-missing-title",
+      "title": "",
+      "source": "synthetic",
+      "failed": [
+        {
+          "name": "schema",
+          "detail": "title: Field required"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-mojibake",
+      "title": "Molten-salt storage",
+      "source": "synthetic",
+      "failed": [
+        {
+          "name": "mojibake",
+          "detail": "15 suspicious sequences in 654 characters (2.29%)"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-near-duplicate",
+      "title": "Flywheel energy storage (mirror copy)",
+      "source": "synthetic",
+      "failed": [
+        {
+          "name": "near_duplicate",
+          "detail": "highest cosine 1.00 with flywheel-energy-storage"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-non-english",
+      "title": "Windenergie",
+      "source": "synthetic",
+      "failed": [
+        {
+          "name": "language",
+          "detail": "detected 'de'"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-references-only",
+      "title": "Energy storage (reading list)",
+      "source": "synthetic",
+      "failed": [
+        {
+          "name": "min_length",
+          "detail": "0 words after cleaning (minimum 50)"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-replacement-chars",
+      "title": "Export cable repair",
+      "source": "synthetic",
+      "failed": [
+        {
+          "name": "mojibake",
+          "detail": "9 suspicious sequences in 625 characters (1.44%)"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-stub",
+      "title": "Solar panels",
+      "source": "synthetic",
+      "failed": [
+        {
+          "name": "min_length",
+          "detail": "20 words after cleaning (minimum 50)"
+        }
+      ]
+    }
+  ],
+  "flagged": [
+    {
+      "id": "synthetic-pii",
+      "title": "Community solar co-op: site visit notes",
+      "source": "synthetic",
+      "flags": [
+        {
+          "name": "pii",
+          "detail": "2 email address(es), 2 phone number(s)"
+        }
+      ]
+    }
+  ]
+}
