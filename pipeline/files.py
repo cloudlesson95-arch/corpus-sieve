@@ -1,6 +1,7 @@
 """Paths and JSON helpers shared by the pipeline scripts."""
 
 import json
+import os
 from pathlib import Path
 from typing import Any
 
@@ -10,6 +11,17 @@ EXPECTED_PATH = RAW_DIR / "_expected.json"
 QUARANTINE_PATH = ROOT / "data" / "quarantine.json"
 REPORT_PATH = ROOT / "public" / "report.json"
 EXAMPLES_PATH = ROOT / "public" / "examples.json"
+
+
+def env(name: str) -> str:
+    """Read a setting from the environment or the git-ignored .env.local."""
+    from dotenv import load_dotenv
+
+    load_dotenv(ROOT / ".env.local")
+    value = os.environ.get(name)
+    if not value:
+        raise SystemExit(f"{name} is not set; add it to .env.local (see .env.example)")
+    return value
 
 
 def write_json(path: Path, data: Any) -> None:

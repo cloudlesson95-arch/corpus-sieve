@@ -60,6 +60,11 @@ def build_report(reports: list[DocReport], cleaned: list[CleanDoc]) -> dict:
             {"id": r.id, "title": r.title, "source": r.source, "flags": failures(r, blocking=False)}
             for r in reports if r.flagged
         ],
+        "documents": [
+            {"id": d.id, "title": d.title, "source": d.source, "url": d.url, "license": d.license,
+             "status": "quarantined" if r.quarantined else "flagged" if r.flagged else "kept"}
+            for d, r in zip(cleaned, reports)
+        ],
     }
 
 

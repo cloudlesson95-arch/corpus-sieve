@@ -272,5 +272,482 @@
         }
       ]
     }
-  ]
+  ],
+  "documents": [
+    {
+      "id": "agrivoltaics",
+      "title": "Agrivoltaics",
+      "source": "solar",
+      "url": "https://en.wikipedia.org/wiki/Agrivoltaics",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "battery-energy-storage-system",
+      "title": "Battery energy storage system",
+      "source": "storage",
+      "url": "https://en.wikipedia.org/wiki/Battery_energy_storage_system",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "bioenergy",
+      "title": "Bioenergy",
+      "source": "geothermal-bio",
+      "url": "https://en.wikipedia.org/wiki/Bioenergy",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "biogas",
+      "title": "Biogas",
+      "source": "geothermal-bio",
+      "url": "https://en.wikipedia.org/wiki/Biogas",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "biomass",
+      "title": "Biomass",
+      "source": "geothermal-bio",
+      "url": "https://en.wikipedia.org/wiki/Biomass",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "compressed-air-energy-storage",
+      "title": "Compressed-air energy storage",
+      "source": "storage",
+      "url": "https://en.wikipedia.org/wiki/Compressed-air_energy_storage",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "concentrated-solar-power",
+      "title": "Concentrated solar power",
+      "source": "solar",
+      "url": "https://en.wikipedia.org/wiki/Concentrated_solar_power",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "electrical-grid",
+      "title": "Electrical grid",
+      "source": "grid",
+      "url": "https://en.wikipedia.org/wiki/Electrical_grid",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "energy-storage",
+      "title": "Energy storage",
+      "source": "storage",
+      "url": "https://en.wikipedia.org/wiki/Energy_storage",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "floating-offshore-wind",
+      "title": "Floating offshore wind",
+      "source": "wind",
+      "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "flow-battery",
+      "title": "Flow battery",
+      "source": "storage",
+      "url": "https://en.wikipedia.org/wiki/Flow_battery",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "flywheel-energy-storage",
+      "title": "Flywheel energy storage",
+      "source": "storage",
+      "url": "https://en.wikipedia.org/wiki/Flywheel_energy_storage",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "geothermal-energy",
+      "title": "Geothermal energy",
+      "source": "geothermal-bio",
+      "url": "https://en.wikipedia.org/wiki/Geothermal_energy",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "geothermal-power",
+      "title": "Geothermal power",
+      "source": "geothermal-bio",
+      "url": "https://en.wikipedia.org/wiki/Geothermal_power",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "grid-energy-storage",
+      "title": "Grid energy storage",
+      "source": "storage",
+      "url": "https://en.wikipedia.org/wiki/Grid_energy_storage",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "ground-source-heat-pump",
+      "title": "Ground source heat pump",
+      "source": "geothermal-bio",
+      "url": "https://en.wikipedia.org/wiki/Ground_source_heat_pump",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "hydroelectricity",
+      "title": "Hydroelectricity",
+      "source": "hydro-marine",
+      "url": "https://en.wikipedia.org/wiki/Hydroelectricity",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "hydrogen-storage",
+      "title": "Hydrogen storage",
+      "source": "storage",
+      "url": "https://en.wikipedia.org/wiki/Hydrogen_storage",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "levelized-cost-of-electricity",
+      "title": "Levelized cost of electricity",
+      "source": "grid",
+      "url": "https://en.wikipedia.org/wiki/Levelized_cost_of_electricity",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "lithium-ion-battery",
+      "title": "Lithium-ion battery",
+      "source": "storage",
+      "url": "https://en.wikipedia.org/wiki/Lithium-ion_battery",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "marine-energy",
+      "title": "Marine energy",
+      "source": "hydro-marine",
+      "url": "https://en.wikipedia.org/wiki/Marine_energy",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "ocean-thermal-energy-conversion",
+      "title": "Ocean thermal energy conversion",
+      "source": "hydro-marine",
+      "url": "https://en.wikipedia.org/wiki/Ocean_thermal_energy_conversion",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "offshore-wind-power",
+      "title": "Offshore wind power",
+      "source": "wind",
+      "url": "https://en.wikipedia.org/wiki/Offshore_wind_power",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "photovoltaic-power-station",
+      "title": "Photovoltaic power station",
+      "source": "solar",
+      "url": "https://en.wikipedia.org/wiki/Photovoltaic_power_station",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "photovoltaics",
+      "title": "Photovoltaics",
+      "source": "solar",
+      "url": "https://en.wikipedia.org/wiki/Photovoltaics",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "pumped-storage-hydroelectricity",
+      "title": "Pumped-storage hydroelectricity",
+      "source": "hydro-marine",
+      "url": "https://en.wikipedia.org/wiki/Pumped-storage_hydroelectricity",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "renewable-energy",
+      "title": "Renewable energy",
+      "source": "grid",
+      "url": "https://en.wikipedia.org/wiki/Renewable_energy",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "run-of-the-river-hydroelectricity",
+      "title": "Run-of-the-river hydroelectricity",
+      "source": "hydro-marine",
+      "url": "https://en.wikipedia.org/wiki/Run-of-the-river_hydroelectricity",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "smart-grid",
+      "title": "Smart grid",
+      "source": "grid",
+      "url": "https://en.wikipedia.org/wiki/Smart_grid",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "solar-cell",
+      "title": "Solar cell",
+      "source": "solar",
+      "url": "https://en.wikipedia.org/wiki/Solar_cell",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "solar-power",
+      "title": "Solar power",
+      "source": "solar",
+      "url": "https://en.wikipedia.org/wiki/Solar_power",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "solar-thermal-energy",
+      "title": "Solar thermal energy",
+      "source": "solar",
+      "url": "https://en.wikipedia.org/wiki/Solar_thermal_energy",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "synthetic-boilerplate",
+      "title": "Heat pumps explained",
+      "source": "synthetic",
+      "url": "https://example.org/synthetic/boilerplate",
+      "license": "CC0 1.0 (synthetic test document)",
+      "status": "quarantined"
+    },
+    {
+      "id": "synthetic-empty",
+      "title": "Empty page",
+      "source": "synthetic",
+      "url": "https://example.org/synthetic/empty",
+      "license": "CC0 1.0 (synthetic test document)",
+      "status": "quarantined"
+    },
+    {
+      "id": "synthetic-exact-duplicate",
+      "title": "Pumped-storage hydroelectricity",
+      "source": "synthetic",
+      "url": "https://en.wikipedia.org/wiki/Pumped-storage_hydroelectricity",
+      "license": "CC BY-SA 4.0",
+      "status": "quarantined"
+    },
+    {
+      "id": "synthetic-html-litter",
+      "title": "Microgrids",
+      "source": "synthetic",
+      "url": "https://example.org/synthetic/html-litter",
+      "license": "CC0 1.0 (synthetic test document)",
+      "status": "quarantined"
+    },
+    {
+      "id": "synthetic-missing-title",
+      "title": "",
+      "source": "synthetic",
+      "url": "https://example.org/synthetic/missing-title",
+      "license": "CC0 1.0 (synthetic test document)",
+      "status": "quarantined"
+    },
+    {
+      "id": "synthetic-mojibake",
+      "title": "Molten-salt storage",
+      "source": "synthetic",
+      "url": "https://example.org/synthetic/mojibake",
+      "license": "CC0 1.0 (synthetic test document)",
+      "status": "quarantined"
+    },
+    {
+      "id": "synthetic-near-duplicate",
+      "title": "Flywheel energy storage (mirror copy)",
+      "source": "synthetic",
+      "url": "https://example.org/mirror/flywheel-energy-storage",
+      "license": "CC BY-SA 4.0",
+      "status": "quarantined"
+    },
+    {
+      "id": "synthetic-non-english",
+      "title": "Windenergie",
+      "source": "synthetic",
+      "url": "https://example.org/synthetic/non-english",
+      "license": "CC0 1.0 (synthetic test document)",
+      "status": "quarantined"
+    },
+    {
+      "id": "synthetic-pii",
+      "title": "Community solar co-op: site visit notes",
+      "source": "synthetic",
+      "url": "https://example.org/synthetic/pii",
+      "license": "CC0 1.0 (synthetic test document)",
+      "status": "flagged"
+    },
+    {
+      "id": "synthetic-references-only",
+      "title": "Energy storage (reading list)",
+      "source": "synthetic",
+      "url": "https://example.org/synthetic/references-only",
+      "license": "CC0 1.0 (synthetic test document)",
+      "status": "quarantined"
+    },
+    {
+      "id": "synthetic-replacement-chars",
+      "title": "Export cable repair",
+      "source": "synthetic",
+      "url": "https://example.org/synthetic/replacement-chars",
+      "license": "CC0 1.0 (synthetic test document)",
+      "status": "quarantined"
+    },
+    {
+      "id": "synthetic-stub",
+      "title": "Solar panels",
+      "source": "synthetic",
+      "url": "https://example.org/synthetic/stub",
+      "license": "CC0 1.0 (synthetic test document)",
+      "status": "quarantined"
+    },
+    {
+      "id": "thermal-energy-storage",
+      "title": "Thermal energy storage",
+      "source": "storage",
+      "url": "https://en.wikipedia.org/wiki/Thermal_energy_storage",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "tidal-power",
+      "title": "Tidal power",
+      "source": "hydro-marine",
+      "url": "https://en.wikipedia.org/wiki/Tidal_power",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "variable-renewable-energy",
+      "title": "Variable renewable energy",
+      "source": "grid",
+      "url": "https://en.wikipedia.org/wiki/Variable_renewable_energy",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "vertical-axis-wind-turbine",
+      "title": "Vertical-axis wind turbine",
+      "source": "wind",
+      "url": "https://en.wikipedia.org/wiki/Vertical-axis_wind_turbine",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "wave-power",
+      "title": "Wave power",
+      "source": "hydro-marine",
+      "url": "https://en.wikipedia.org/wiki/Wave_power",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "wind-farm",
+      "title": "Wind farm",
+      "source": "wind",
+      "url": "https://en.wikipedia.org/wiki/Wind_farm",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "wind-power",
+      "title": "Wind power",
+      "source": "wind",
+      "url": "https://en.wikipedia.org/wiki/Wind_power",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    },
+    {
+      "id": "wind-turbine",
+      "title": "Wind turbine",
+      "source": "wind",
+      "url": "https://en.wikipedia.org/wiki/Wind_turbine",
+      "license": "CC BY-SA 4.0",
+      "status": "kept"
+    }
+  ],
+  "chunks": {
+    "count": 631,
+    "chunk_size": 800,
+    "chunk_overlap": 100,
+    "min_chars": 59,
+    "max_chars": 799,
+    "mean_chars": 524,
+    "dropped_empty": 0,
+    "dropped_short": 0,
+    "histogram": [
+      {
+        "from": 0,
+        "to": 100,
+        "count": 7
+      },
+      {
+        "from": 100,
+        "to": 200,
+        "count": 44
+      },
+      {
+        "from": 200,
+        "to": 300,
+        "count": 51
+      },
+      {
+        "from": 300,
+        "to": 400,
+        "count": 82
+      },
+      {
+        "from": 400,
+        "to": 500,
+        "count": 91
+      },
+      {
+        "from": 500,
+        "to": 600,
+        "count": 93
+      },
+      {
+        "from": 600,
+        "to": 700,
+        "count": 102
+      },
+      {
+        "from": 700,
+        "to": 800,
+        "count": 161
+      }
+    ]
+  },
+  "embeddings": {
+    "model": "gemini-embedding-2",
+    "dimension": 3072,
+    "distance": "cosine",
+    "points": 631,
+    "checks": "every vector is checked for dimension, NaN/infinite values and zero norm before upsert"
+  }
 }

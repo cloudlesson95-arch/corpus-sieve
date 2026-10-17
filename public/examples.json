@@ -1,0 +1,277 @@
+[
+  {
+    "query": "how do pumped hydro plants store energy",
+    "results": [
+      {
+        "score": 0.8353,
+        "title": "Pumped-storage hydroelectricity",
+        "section": "Introduction",
+        "url": "https://en.wikipedia.org/wiki/Pumped-storage_hydroelectricity",
+        "source": "hydro-marine",
+        "text": "Pumped-storage hydroelectricity (PSH), or pumped hydroelectric energy storage (PHES), is a type of hydroelectric energy storage used by electric power systems for load balancing.\nA PSH system stores energy in the form of gravitational potential energy of water, pumped from a lower elevation reservoir to a higher elevation. Low-cost surplus off-peak electric power is typically used to run the pumps. During periods of high electrical demand, the stored water is released through turbines to produce electric power.\nPumped-storage hydroelectricity allows energy from intermittent sources (such as solar, wind, and other renewables) or excess electricity from continuous base-load sources (such as coal or nuclear) to be saved for periods of higher demand.",
+        "doc_id": "pumped-storage-hydroelectricity",
+        "chunk_index": 0
+      },
+      {
+        "score": 0.8231,
+        "title": "Energy storage",
+        "section": "Methods > Mechanical > Pumped hydro",
+        "url": "https://en.wikipedia.org/wiki/Energy_storage",
+        "source": "storage",
+        "text": "At times of low electrical demand, excess generation capacity is used to pump water from a lower source into a higher reservoir. When demand grows, water is released back into a lower reservoir (or waterway or body of water) through a turbine, generating electricity. Reversible turbine-generator assemblies act as both a pump and turbine (usually a Francis turbine design). Nearly all facilities use the height difference between two water bodies. Pure pumped-storage plants shift the water between reservoirs, while the \"pump-back\" approach is a combination of pumped storage and conventional hydroelectric plants that use natural stream-flow.",
+        "doc_id": "energy-storage",
+        "chunk_index": 10
+      },
+      {
+        "score": 0.8198,
+        "title": "Pumped-storage hydroelectricity",
+        "section": "Basic principle",
+        "url": "https://en.wikipedia.org/wiki/Pumped-storage_hydroelectricity",
+        "source": "hydro-marine",
+        "text": "A pumped-storage hydroelectricity generally consists of two water reservoirs at different heights, connected with each other.\nAt times of low electrical demand, excess generation capacity is used to pump water into the upper reservoir.\nWhen there is higher demand, water is released back into the lower reservoir through a turbine, generating electricity. Pumped storage plants usually use reversible turbine/generator assemblies, which can act both as a pump and as a turbine generator (usually Francis turbine designs).\nVariable speed operation further optimizes the round trip efficiency in pumped hydro storage plants.\nIn micro-PSH applications, a group of pumps and Pump As Turbine (PAT) could be implemented respectively for pumping and generating phases.",
+        "doc_id": "pumped-storage-hydroelectricity",
+        "chunk_index": 3
+      },
+      {
+        "score": 0.774,
+        "title": "Hydroelectricity",
+        "section": "Generating methods > Pumped-storage",
+        "url": "https://en.wikipedia.org/wiki/Hydroelectricity",
+        "source": "hydro-marine",
+        "text": "This method produces electricity to supply high peak demands by moving water between reservoirs at different elevations. At times of low electrical demand, the excess generation capacity is used to pump water into the higher reservoir, thus providing demand side response. When the demand becomes greater, water is released back into the lower reservoir through a turbine. In 2021 pumped-storage schemes provided almost 85% of the world's 190 GW of grid energy storage and improve the daily capacity factor of the generation system. Pumped storage is not an energy source, and appears as a negative number in listings.",
+        "doc_id": "hydroelectricity",
+        "chunk_index": 13
+      },
+      {
+        "score": 0.768,
+        "title": "Pumped-storage hydroelectricity",
+        "section": "Introduction",
+        "url": "https://en.wikipedia.org/wiki/Pumped-storage_hydroelectricity",
+        "source": "hydro-marine",
+        "text": "The reservoirs used with pumped storage can be quite small, when contrasted with the lakes of conventional hydroelectric plants of similar power capacity, and generating periods are often less than half a day.\nThe round-trip efficiency of PSH varies between 70% and 80%. Although the losses of the pumping process make the plant a net consumer of energy overall, the system increases revenue by selling more electricity during periods of peak demand, when electricity prices are highest. If the upper lake collects significant rainfall, or is fed by a river, then the plant may be a net energy producer in the manner of a traditional hydroelectric plant.",
+        "doc_id": "pumped-storage-hydroelectricity",
+        "chunk_index": 1
+      }
+    ]
+  },
+  {
+    "query": "why are some offshore wind turbines floating",
+    "results": [
+      {
+        "score": 0.834,
+        "title": "Floating offshore wind",
+        "section": "Introduction",
+        "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
+        "source": "wind",
+        "text": "Floating offshore wind involves one or more offshore wind turbines mounted on a floating structure that allows the turbine to generate electricity in water depths where fixed-foundation turbines are not technically/economically feasible. Floating wind farms have the potential to significantly increase the sea area available for offshore wind farms, especially in countries with limited shallow waters, such as Spain, Portugal, Japan, France and the United States' West Coast, and countries with few remaining viable shallow-water sites (like the United Kingdom). Locating wind farms further offshore can also reduce visual pollution, provide better accommodation for fishing and shipping lanes, and reach stronger and more consistent winds.",
+        "doc_id": "floating-offshore-wind",
+        "chunk_index": 0
+      },
+      {
+        "score": 0.7725,
+        "title": "Offshore wind power",
+        "section": "Introduction",
+        "url": "https://en.wikipedia.org/wiki/Offshore_wind_power",
+        "source": "wind",
+        "text": "Unlike the typical use of the term \"offshore\" in the marine industry, offshore wind power includes inshore water areas such as lakes, fjords and sheltered coastal areas as well as deeper-water areas. Most offshore wind farms employ fixed-foundation wind turbines in relatively shallow water. Floating wind turbines for deeper waters are in an earlier phase of development and deployment.",
+        "doc_id": "offshore-wind-power",
+        "chunk_index": 1
+      },
+      {
+        "score": 0.7635,
+        "title": "Floating offshore wind",
+        "section": "Introduction",
+        "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
+        "source": "wind",
+        "text": "There is a very wide variety of technology concepts for floating offshore wind farms, which typically involve steel or concrete substructures (effectively a hull) connected to the seabed (moored) using steel chains or synthetic ropes. A 2026 study of available concepts counted over 100 such concepts.",
+        "doc_id": "floating-offshore-wind",
+        "chunk_index": 4
+      },
+      {
+        "score": 0.7625,
+        "title": "Offshore wind power",
+        "section": "Future development",
+        "url": "https://en.wikipedia.org/wiki/Offshore_wind_power",
+        "source": "wind",
+        "text": "One of the advancements that characterises the current development within the offshore industry are technologies that allow for offshore wind projects further off the shore where wind availability is higher. In particular, the adoption of floating foundation technologies has proved to be a promising technology for unlocking the wind potential on deeper waters.",
+        "doc_id": "offshore-wind-power",
+        "chunk_index": 14
+      },
+      {
+        "score": 0.7582,
+        "title": "Floating offshore wind",
+        "section": "History > Individual turbines",
+        "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
+        "source": "wind",
+        "text": "In December 2007, Blue H Technologies of the Netherlands deployed the world's first floating wind turbine, 21.3 kilometres (13.2 mi) off the coast of Apulia, Italy. The 80 kW prototype was installed in waters 113 metres (371 ft) deep in order to gather test data on wind and sea conditions, and was decommissioned at the end of 2008. The turbine utilized a tension-leg platform design and a two-bladed turbine.\nIn December 2009, the first large-capacity, 2.3 MW floating wind turbine named Hywind became operation in the North Sea near Norway.\nThe turbine was constructed by Siemens Wind Power and mounted on a floating tower with a 100 m deep draft, with a float tower constructed by Technip.",
+        "doc_id": "floating-offshore-wind",
+        "chunk_index": 6
+      }
+    ]
+  },
+  {
+    "query": "how does a flow battery work",
+    "results": [
+      {
+        "score": 0.8319,
+        "title": "Flow battery",
+        "section": "Introduction",
+        "url": "https://en.wikipedia.org/wiki/Flow_battery",
+        "source": "storage",
+        "text": "A flow battery, or redox flow battery (after reduction–oxidation), is a type of electrochemical cell where chemical energy is provided by two chemical components dissolved in liquids that are pumped through the system on separate sides of a membrane. Ion transfer inside the cell (accompanied by current flow through an external circuit) occurs across the membrane while the liquids circulate in their respective spaces.\nA flow battery may be used like a fuel cell (where new charged negolyte (a.k.a. reducer or fuel) and charged posolyte (a.k.a. oxidant) are added to the system) or like a rechargeable battery (where an electric power source drives regeneration of the reducer and oxidant).",
+        "doc_id": "flow-battery",
+        "chunk_index": 0
+      },
+      {
+        "score": 0.8296,
+        "title": "Flow battery",
+        "section": "Design",
+        "url": "https://en.wikipedia.org/wiki/Flow_battery",
+        "source": "storage",
+        "text": "A flow battery is a rechargeable fuel cell in which an electrolyte containing one or more dissolved electroactive elements flows through an electrochemical cell that reversibly converts chemical energy to electrical energy. Electroactive elements are \"elements in solution that can take part in an electrode reaction or that can be adsorbed on the electrode.\"",
+        "doc_id": "flow-battery",
+        "chunk_index": 8
+      },
+      {
+        "score": 0.8016,
+        "title": "Flow battery",
+        "section": "Design",
+        "url": "https://en.wikipedia.org/wiki/Flow_battery",
+        "source": "storage",
+        "text": "Electrolyte is stored externally, generally in tanks, and is typically pumped through the cell (or cells) of the reactor. Flow batteries can be rapidly \"recharged\" by replacing discharged electrolyte liquid (analogous to refueling internal combustion engines) while recovering the spent material for recharging. They can also be recharged in situ. Many flow batteries use carbon felt electrodes due to its low cost and adequate electrical conductivity, despite their limited power density due to their low inherent activity toward many redox couples. The amount of electricity that can be generated depends on the volume of electrolyte.\nFlow batteries are governed by the design principles of electrochemical engineering.",
+        "doc_id": "flow-battery",
+        "chunk_index": 9
+      },
+      {
+        "score": 0.7734,
+        "title": "Flow battery",
+        "section": "Introduction",
+        "url": "https://en.wikipedia.org/wiki/Flow_battery",
+        "source": "storage",
+        "text": "Cell voltage is chemically determined by the Nernst equation and ranges, in practical applications, from 1.0 to 2.43 volts. The energy capacity increased with the volume of the fluids in the tanks, and the power increases with the size of the stack.\nFlow batteries can be classified using different schemes:\nFull-flow (where all reagents are in fluid phases: gases, liquids, or liquid solutions), such as vanadium redox flow battery vs semi-flow, where one or more electroactive phases are solid, such as zinc-bromine battery.\nType of reagents: inorganic vs. organic and organic forms. As of 2025, only inorganic RFBs have been demonstrated on a commercial scale. Organic RFBs often suffer from poor durability.\nBy cell separator design: Membrane RFBs vs membraneless RFB.",
+        "doc_id": "flow-battery",
+        "chunk_index": 4
+      },
+      {
+        "score": 0.7725,
+        "title": "Flow battery",
+        "section": "Introduction",
+        "url": "https://en.wikipedia.org/wiki/Flow_battery",
+        "source": "storage",
+        "text": "Flow batteries have certain technical advantages over conventional rechargeable batteries with solid electroactive materials, such as independent scaling of power (determined by the size of the stack) and of energy (determined by the size of the tanks), long cycle and calendar life, and potentially lower total cost of ownership at multi-hour half cycle design times. However, flow batteries suffer from a lower cycle energy efficiency (50–80%). This drawback stems from the need to operate flow batteries at high (≥ 100 mA/cm2) current densities to reduce the effect of internal crossover (through the membrane/separator) and to reduce the cost of power (size of stacks). Also, most flow batteries (Zn−Cl2, Zn−Br2 and H2−LiBrO4 are exceptions) have lower specific energy (heavier weight) than",
+        "doc_id": "flow-battery",
+        "chunk_index": 2
+      }
+    ]
+  },
+  {
+    "query": "how is geothermal heat turned into electricity",
+    "results": [
+      {
+        "score": 0.7933,
+        "title": "Geothermal power",
+        "section": "Power station types",
+        "url": "https://en.wikipedia.org/wiki/Geothermal_power",
+        "source": "geothermal-bio",
+        "text": "Geothermal power stations are similar to other steam turbine thermal power stations in that heat from a fuel source (in geothermal's case, the Earth's core) is used to heat water or another working fluid. The working fluid is then used to turn a turbine of a generator, thereby producing electricity. The fluid is then cooled and returned to the heat source.",
+        "doc_id": "geothermal-power",
+        "chunk_index": 19
+      },
+      {
+        "score": 0.7782,
+        "title": "Geothermal power",
+        "section": "Introduction",
+        "url": "https://en.wikipedia.org/wiki/Geothermal_power",
+        "source": "geothermal-bio",
+        "text": "Geothermal power is electrical power generated from geothermal energy. Technologies in use include dry steam power stations, flash steam power stations and binary cycle power stations. 32 countries had operational geothermal power stations as of 2022.",
+        "doc_id": "geothermal-power",
+        "chunk_index": 0
+      },
+      {
+        "score": 0.7749,
+        "title": "Geothermal energy",
+        "section": "Geothermal power",
+        "url": "https://en.wikipedia.org/wiki/Geothermal_energy",
+        "source": "geothermal-bio",
+        "text": "Geothermal power is electrical power generated from geothermal energy. Dry steam, flash steam, and binary cycle power stations have been used for this purpose. As of 2010 geothermal electricity was generated in 26 countries.\nAs of 2019, worldwide geothermal power capacity amounted to 15.4 gigawatts (GW), of which 23.86% or 3.68 GW were in the United States.\nGeothermal energy supplies a significant share of the electrical power in Iceland, El Salvador, Kenya, the Philippines and New Zealand.",
+        "doc_id": "geothermal-energy",
+        "chunk_index": 11
+      },
+      {
+        "score": 0.7604,
+        "title": "Geothermal power",
+        "section": "Resources",
+        "url": "https://en.wikipedia.org/wiki/Geothermal_power",
+        "source": "geothermal-bio",
+        "text": "Electricity generation requires high-temperature resources that can only come from deep underground. The heat must be carried to the surface by fluid circulation, either through magma conduits, hot springs, hydrothermal circulation, oil wells, drilled water wells, or a combination of these. This circulation sometimes exists naturally where the crust is thin: magma conduits bring heat close to the surface, and hot springs bring the heat to the surface. If a hot spring is not available, a well must be drilled into a hot aquifer. Away from tectonic plate boundaries the geothermal gradient is 25 to 30 °C per kilometre (70 to 85 °F per mile) of depth in most of the world, so wells would have to be several kilometres deep to permit electricity generation. The quantity and quality of recoverable",
+        "doc_id": "geothermal-power",
+        "chunk_index": 11
+      },
+      {
+        "score": 0.7504,
+        "title": "Geothermal energy",
+        "section": "Introduction",
+        "url": "https://en.wikipedia.org/wiki/Geothermal_energy",
+        "source": "geothermal-bio",
+        "text": "Geothermal energy is thermal energy extracted from the Earth's crust. It combines energy from the planet's formation and from radioactive decay. Geothermal energy has been exploited as a source of heat and/or electric power for millennia.\nGeothermal heating, using water from hot springs, for example, has been used for bathing since Paleolithic times and for space heating since Roman times. Geothermal power (generation of electricity from geothermal energy) has been used since the 20th century. Geothermal power plants produce power at a constant rate, regardless of weather conditions. Geothermal resources are theoretically more than adequate to supply humanity's energy needs. Most extraction occurs in areas near tectonic plate boundaries.",
+        "doc_id": "geothermal-energy",
+        "chunk_index": 0
+      }
+    ]
+  },
+  {
+    "query": "what makes up the levelized cost of electricity",
+    "results": [
+      {
+        "score": 0.8364,
+        "title": "Levelized cost of electricity",
+        "section": "Definition",
+        "url": "https://en.wikipedia.org/wiki/Levelized_cost_of_electricity",
+        "source": "grid",
+        "text": "The cost of electricity production depends on costs during the expected lifetime of the generator and the amount of electricity the generator is expected to produce over its lifetime. The levelized cost of electricity (LCOE) is the constant price per unit of energy that would yield a net present value of zero for the project, or, more technically, the \"cost that, if assigned to every unit of energy produced (or saved) by the system over the analysis period, will equal the [total life-cycle cost] (TLCC) when discounted back to the base year.\"\nLCOE is defined by the formula:",
+        "doc_id": "levelized-cost-of-electricity",
+        "chunk_index": 1
+      },
+      {
+        "score": 0.8222,
+        "title": "Levelized cost of electricity",
+        "section": "Introduction",
+        "url": "https://en.wikipedia.org/wiki/Levelized_cost_of_electricity",
+        "source": "grid",
+        "text": "The levelized cost of electricity (LCOE) is a measure of the average net present cost of electricity generation for a generator over its lifetime. It is one of several cost metrics used for investment planning and to compare different methods of electricity generation on a consistent basis.\nThe more general term levelized cost of energy may include the costs of either electricity or heat. The latter is also referred to as levelized cost of heat or levelized cost of heating (LCOH), or levelized cost of thermal energy.",
+        "doc_id": "levelized-cost-of-electricity",
+        "chunk_index": 0
+      },
+      {
+        "score": 0.8139,
+        "title": "Levelized cost of electricity",
+        "section": "Definition",
+        "url": "https://en.wikipedia.org/wiki/Levelized_cost_of_electricity",
+        "source": "grid",
+        "text": "LCOE is defined by the formula:\n\\mathrm {LCOE} ={\\frac {\\text{discounted sum of costs over lifetime}}{\\text{discounted sum of electrical energy produced over lifetime}}}={\\frac {\\sum _{t=1}^{n}{\\frac {I_{t}+M_{t}+F_{t}}{\\left({1+r}\\right)^{t}}}}{\\sum _{t=\\alpha }^{n}{\\frac {E_{t}}{\\left({1+r}\\right)^{t}}}}}\nInput values are:",
+        "doc_id": "levelized-cost-of-electricity",
+        "chunk_index": 2
+      },
+      {
+        "score": 0.786,
+        "title": "Levelized cost of electricity",
+        "section": "Applicability",
+        "url": "https://en.wikipedia.org/wiki/Levelized_cost_of_electricity",
+        "source": "grid",
+        "text": "LCOE is an estimation of the cost of production of electricity and not the price of electricity. The price of electricity may be influenced by additional factors including markup and price controls.\nLCOE is commonly used for:\nFeasibility study decisions for new electricity generation projects.\nInvestment strategy decisions made by businesses and governments.\nEnergy policy decisions made by governments.",
+        "doc_id": "levelized-cost-of-electricity",
+        "chunk_index": 3
+      },
+      {
+        "score": 0.7741,
+        "title": "Levelized cost of electricity",
+        "section": "Applicability > Limitations",
+        "url": "https://en.wikipedia.org/wiki/Levelized_cost_of_electricity",
+        "source": "grid",
+        "text": "LCOE is often cited as a convenient summary measure of the overall competitiveness of different generating technologies, however, it has potential limitations. Decisions about investments in energy generation technologies may need to be guided by other measures such as the levelized cost of storage (LCOS) and the levelized avoided cost of energy (LACE), in addition to the LCOE.\nOne of the most important potential limitations of LCOE is that it may not control for time effects associated with matching electricity production to demand. This can happen at two levels:\nDispatchability, the ability of a generating system to come online, go offline, or ramp up or down, quickly as demand swings.\nThe extent to which the availability profile matches or conflicts with the market demand profile.",
+        "doc_id": "levelized-cost-of-electricity",
+        "chunk_index": 6
+      }
+    ]
+  }
+]

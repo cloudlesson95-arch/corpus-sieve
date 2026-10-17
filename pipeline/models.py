@@ -25,6 +25,18 @@ class CleanDoc(BaseModel):
     removed: dict[str, int]  # characters removed per cleaning step
 
 
+class Chunk(BaseModel):
+    doc_id: str
+    doc_hash: str
+    chunk_index: int
+    title: str
+    section: str
+    source: str
+    url: str
+    license: str
+    text: str
+
+
 class CheckResult(BaseModel):
     name: str
     passed: bool
